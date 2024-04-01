@@ -26,4 +26,8 @@ while True:
     if rand == num:
         print(f"You take {guesses} attempts to guess the number")
         break
-
+    else:
+        if rand>num:
+            print("Higher")
+        else:
+            print("Lower")
